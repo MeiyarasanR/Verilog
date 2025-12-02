@@ -24,3 +24,8 @@ Cyclic_lamp
 
 
 <img width="1044" height="349" alt="Screenshot 2025-12-02 095955" src="https://github.com/user-attachments/assets/8cbabd9e-3ce9-49eb-8658-53398bd3ae1e" />
+
+# MODIFIED CYCLIC LAMP
+<img width="1068" height="691" alt="Screenshot 2025-12-02 183842" src="https://github.com/user-attachments/assets/7bd8c128-950a-43b6-8a31-45fab844feea" />
+
+
