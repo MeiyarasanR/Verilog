@@ -16,17 +16,21 @@ Cyclic_lamp
 
 <img width="461" height="363" alt="Cyclic_lamp_state_diagram" src="https://github.com/user-attachments/assets/3b2d14ff-9229-4a13-b803-cbdd83b3a682" />
 
-#
+# CYCLIC LAMP:
 
  <img width="1067" height="643" alt="image" src="https://github.com/user-attachments/assets/2fd6dee2-f018-45c9-a089-bed9bd0616d6" />
+
  
+# WAVEFORM:
+
 
 <img width="1491" height="228" alt="Screenshot 2025-12-02 095930" src="https://github.com/user-attachments/assets/99782560-0116-4d68-9a7e-9733b21cb7bc" />
 
-
+# OUTPUT:
 <img width="1044" height="349" alt="Screenshot 2025-12-02 095955" src="https://github.com/user-attachments/assets/8cbabd9e-3ce9-49eb-8658-53398bd3ae1e" />
 
 # MODIFIED CYCLIC LAMP
+
 => It has only two flip flop in the synthesized output.
 <img width="1068" height="691" alt="Screenshot 2025-12-02 183842" src="https://github.com/user-attachments/assets/7bd8c128-950a-43b6-8a31-45fab844feea" />
 
