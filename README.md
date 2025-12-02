@@ -1,3 +1,68 @@
+🚦 Cyclic Lamp FSM (Verilog)
+
+A simple Finite State Machine (FSM) implemented in Verilog that controls a cyclic lamp with three states: GREEN → YELLOW → RED.
+
+This project demonstrates FSM design, state encoding, and synthesis behavior in hardware description languages.
+
+📁 Project Structure
+Cyclic_Lamp/
+  src/
+     └── Cyclic_lamp.v        // Main FSM design
+  tb/
+     └── Cyclic_lamp_TB.v     // Testbench for simulation
+
+🧠 FSM Description
+State Sequence
+S0 (GREEN) → S1 (YELLOW) → S2 (RED) → back to S0
+
+Output Encoding
+Light	Code
+RED	3'b100
+GREEN	3'b010
+YELLOW	3'b001
+State Diagram
+     +-----------+
+     |   S0      |
+     |  GREEN    |
+     +-----+-----+
+           |
+           v
+     +-----------+
+     |   S1      |
+     | YELLOW    |
+     +-----+-----+
+           |
+           v
+     +-----------+
+     |   S2      |
+     |   RED     |
+     +-----+-----+
+           |
+           +----> back to S0
+
+🧩 Synthesis Result Explanation
+Using a Single Always Block
+
+Both state and light are updated inside:
+
+always @(posedge clk)
+
+
+Therefore, the synthesis tool creates:
+
+2 flip-flops → for state (2-bit register)
+
+3 flip-flops → for light output (3-bit register)
+
+✔ Total = 5 Flip-Flops
+Using Two Always Blocks (Recommended FSM Style)
+
+1️⃣ Sequential Block (State Register)
+2️⃣ Combinational Block (Output Logic)
+
+Outputs become combinational, so light does NOT need flip-flops.
+
+✔ Total Flip-Flops = 2
 # Verilog
 FSM Based verilog coding
 Cyclic_lamp
