@@ -12,10 +12,11 @@ Cyclic_lamp
 
 => Using two always blocks (state register + combinational output logic) keeps output combinational.
    So only 2 FFs are needed (for state).
+# STATE DIAGRAM:
 
 <img width="461" height="363" alt="Cyclic_lamp_state_diagram" src="https://github.com/user-attachments/assets/3b2d14ff-9229-4a13-b803-cbdd83b3a682" />
 
-
+#
 
  <img width="1067" height="643" alt="image" src="https://github.com/user-attachments/assets/2fd6dee2-f018-45c9-a089-bed9bd0616d6" />
  
